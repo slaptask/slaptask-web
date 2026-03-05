@@ -3,27 +3,27 @@ import { Brain, Flame, Target, Mic } from "lucide-react"
 const features = [
   {
     icon: Brain,
-    title: "AI-Generated Tasks",
+    title: "ИИ-задачи",
     description:
-      "Based on your goals, AI creates personalized daily challenges that push you beyond comfort.",
+      "ИИ создает персонализированные ежедневные челленджи, основанные на ваших целях, чтобы выходить из зоны комфорта.",
   },
   {
     icon: Flame,
-    title: "No Mercy Mode",
+    title: "Режим «Без жалости»",
     description:
-      "Tasks are designed to be uncomfortable. That's the point. Growth lives outside your comfort zone.",
+      "Задачи специально разработаны так, чтобы быть неудобными. В этом вся суть. Рост происходит за пределами зоны комфорта.",
   },
   {
     icon: Target,
-    title: "Goal Tracking",
+    title: "Отслеживание целей",
     description:
-      "Set your goals and watch AI adapt your tasks over time. Every challenge moves you closer.",
+      "Установите цели и наблюдайте, как ИИ адаптирует задачи. Каждый вызов приближает вас к результату.",
   },
   {
     icon: Mic,
-    title: "Voice Input",
+    title: "Голосовой ввод",
     description:
-      "Speak your goals, don't type them. Record your ambitions and let AI do the rest.",
+      "Проговаривайте свои цели, а не печатайте их. Записывайте свои амбиции, а ИИ возьмет всё остальное на себя.",
   },
 ]
 
@@ -33,12 +33,12 @@ export function Features() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-20 max-w-2xl">
           <p className="mb-4 font-mono text-xs font-light tracking-[0.25em] text-primary uppercase">
-            Why SlapTask
+            Почему SlapTask
           </p>
           <h2 className="text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Your comfort zone
+            Ваша зона комфорта —
             <br />
-            is a prison.
+            это тюрьма.
           </h2>
         </div>
 

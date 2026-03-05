@@ -6,11 +6,11 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 sm:flex-row sm:justify-between">
         <div className="flex items-center gap-3">
           <Image
-            src="/logo-colored.svg"
+            src="/logo-white.svg"
             alt="SlapTask logo"
             width={24}
-            height={20}
-            className="h-5 w-auto"
+            height={24}
+            className="h-7 w-auto mt-2"
           />
           <span className="font-mono text-xs font-light tracking-[0.2em] text-muted-foreground uppercase">
             SlapTask

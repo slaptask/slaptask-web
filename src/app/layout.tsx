@@ -13,15 +13,14 @@ const _jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'SlapTask — Execution Over Planning',
-  description: 'AI-powered task manager that slaps you with daily challenges. No excuses. No mercy. Just execution.',
+  title: 'SlapTask — Результат важнее планирования',
+  description: 'ИИ-менеджер задач, который «бьет по рукам» ежедневными челленджами. Никаких оправданий. Никакой жалости. Только выполнение.',
   openGraph: {
-    title: 'SlapTask — Execution Over Planning',
-    description: 'AI-powered task manager that slaps you with daily challenges. No excuses. No mercy.',
+    title: 'SlapTask — Результат важнее планирования',
+    description: 'ИИ-менеджер задач, который «бьет по рукам» ежедневными челленджами. Никаких оправданий. Никакой жалости.',
     images: ['/images/social.png'],
   },
 }
-
 export const viewport: Viewport = {
   themeColor: '#0D1117',
 }

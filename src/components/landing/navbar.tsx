@@ -5,9 +5,9 @@ import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Screenshots", href: "#screenshots" },
+  { label: "Возможности", href: "#features" },
+  { label: "Как это работает", href: "#how-it-works" },
+  { label: "Скриншоты", href: "#screenshots" },
 ]
 
 export function Navbar() {
@@ -18,11 +18,11 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logo-colored.svg"
-            alt="SlapTask logo"
-            width={32}
-            height={27}
-            className="h-7 w-auto"
+            src="/logo-white.svg"
+            alt="Логотип SlapTask"
+            width={10}
+            height={10}
+            className="h-[22pt] w-auto mt-2"
           />
           <span className="font-mono text-sm font-light tracking-[0.2em] text-foreground uppercase">
             SlapTask
@@ -44,16 +44,16 @@ export function Navbar() {
         <div className="hidden md:block">
           <a
             href="#cta"
-            className="inline-flex items-center rounded-lg bg-primary px-5 py-2.5 font-mono text-xs font-medium tracking-[0.1em] text-primary-foreground uppercase transition-opacity hover:opacity-90"
+            className="inline-flex items-center rounded-lg bg-primary px-5 py-2.5 font-mono text-xs font-medium tracking-widest text-primary-foreground uppercase transition-opacity hover:opacity-90"
           >
-            Get Started
+            Начать
           </a>
         </div>
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="text-foreground md:hidden"
-          aria-label="Toggle menu"
+          aria-label="Переключить меню"
         >
           {mobileOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
@@ -75,9 +75,9 @@ export function Navbar() {
             <a
               href="#cta"
               onClick={() => setMobileOpen(false)}
-              className="inline-flex w-full items-center justify-center rounded-lg bg-primary px-5 py-3 font-mono text-xs font-medium tracking-[0.1em] text-primary-foreground uppercase transition-opacity hover:opacity-90"
+              className="inline-flex w-full items-center justify-center rounded-lg bg-primary px-5 py-3 font-mono text-xs font-medium tracking-widest text-primary-foreground uppercase transition-opacity hover:opacity-90"
             >
-              Get Started
+              Начать
             </a>
           </div>
         </div>

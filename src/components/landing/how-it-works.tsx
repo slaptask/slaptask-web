@@ -1,18 +1,18 @@
 const steps = [
   {
     number: "01",
-    title: "Set your goals",
-    description: "Tell AI what you want to achieve. Voice or text, your choice.",
+    title: "Поставьте цели",
+    description: "Расскажите ИИ, чего хотите достичь. Голосом или текстом — решать вам.",
   },
   {
     number: "02",
-    title: "Get slapped",
-    description: "Every day, AI generates tough tasks tailored to your ambitions.",
+    title: "Получите «пощёчину»",
+    description: "Каждый день ИИ генерирует сложные задачи, адаптированные под ваши амбиции.",
   },
   {
     number: "03",
-    title: "Execute",
-    description: "Complete your tasks. No excuses. The app tracks your streak.",
+    title: "Выполняйте",
+    description: "Выполняйте задачи. Никаких оправданий. Приложение отслеживает ваш прогресс.",
   },
 ]
 
@@ -22,10 +22,10 @@ export function HowItWorks() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-20 text-center">
           <p className="mb-4 font-mono text-xs font-light tracking-[0.25em] text-primary uppercase">
-            How it works
+            Как это работает
           </p>
           <h2 className="text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Three steps to a better you
+            Три шага к лучшей версии себя
           </h2>
         </div>
 
